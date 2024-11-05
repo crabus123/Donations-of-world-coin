@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donaciones a Worldcoin</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        section {
+            padding: 20px;
+            max-width: 900px;
+            margin: 0 auto;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .donation-info {
+            margin-bottom: 20px;
+        }
+
+        .donation-info h2 {
+            font-size: 1.8em;
+        }
+
+        .donation-info p {
+            font-size: 1.2em;
+        }
+
+        .wallet-address {
+            font-size: 1.4em;
+            font-weight: bold;
+            color: #4CAF50;
+            word-wrap: break-word;
+            word-break: break-word;
+        }
+
+        .cta-button {
+            display: block;
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1.2em;
+            margin-top: 20px;
+        }
+
+        .cta-button:hover {
+            background-color: #45a049;
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px;
+            background-color: #333;
+            color: white;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>¡Haz una Donación a nuestra cuenta de Worldcoin!</h1>
+</header>
+
+<section>
+    <div class="donation-info">
+        <h2>Apóyanos con tu donación</h2>
+        <p>Si deseas contribuir a nuestra causa, puedes hacerlo enviando Worldcoin (WLD) a la siguiente dirección. ¡Cualquier contribución es muy apreciada!</p>
+        <p><strong>Dirección de Wallet Worldcoin:</strong></p>
+        <p class="wallet-address">0xba0d4abc50351d3ce95d547fa1a5157d1811e712</p>
+    </div>
+
+    <a href="#" class="cta-button">¡Donar Ahora!</a>
+</section>
+
+<footer>
+    <p>&copy; 2024 Tu Proyecto de Donaciones</p>
+</footer>
+
+</body>
+</html>
